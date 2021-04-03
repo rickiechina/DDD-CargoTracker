@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.practicalddd.cargotracker.bookingms.domain.model.aggregates.Cargo</OriginalElement>
+  <nodes>
+    <node x="648.7916666666667" y="1.0">javax.persistence.Entity</node>
+    <node x="535.0" y="554.0">com.practicalddd.cargotracker.bookingms.domain.model.entities.Location</node>
+    <node x="306.0" y="554.0">com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.Voyage</node>
+    <node x="23.666666666666686" y="114.0">com.practicalddd.cargotracker.bookingms.domain.model.aggregates.Cargo</node>
+    <node x="540.0" y="345.0">com.practicalddd.cargotracker.routingms.domain.model.valueobjects.Schedule</node>
+    <node x="0.0" y="345.0">com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.Delivery</node>
+    <node x="741.0" y="554.0">com.practicalddd.cargotracker.bookingms.domain.model.aggregates.BookingId</node>
+    <node x="0.0" y="554.0">com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.CargoItinerary</node>
+    <node x="205.11904761904765" y="0.0">org.springframework.data.domain.AbstractAggregateRoot</node>
+    <node x="838.6666666666667" y="114.0">com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.Leg</node>
+    <node x="597.6666666666667" y="136.0">com.practicalddd.cargotracker.routingms.domain.model.entities.CarrierMovement</node>
+    <node x="327.66666666666674" y="125.0">com.practicalddd.cargotracker.handlingms.domain.model.aggregates.HandlingActivity</node>
+    <node x="0.0" y="1.0">javax.persistence.NamedQueries</node>
+    <node x="306.0" y="345.0">com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.RouteSpecification</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.practicalddd.cargotracker.bookingms.domain.model.aggregates.Cargo" target="javax.persistence.Entity">
+      <point x="94.66666666666669" y="-93.0" />
+      <point x="260.33333333333337" y="84.0" />
+      <point x="660.6666666666667" y="84.0" />
+      <point x="-35.625" y="26.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.bookingms.domain.model.aggregates.Cargo" target="javax.persistence.NamedQueries">
+      <point x="-94.66666666666669" y="-93.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.handlingms.domain.model.aggregates.HandlingActivity" target="org.springframework.data.domain.AbstractAggregateRoot">
+      <point x="-62.5" y="-82.0" />
+      <point x="390.16666666666674" y="74.0" />
+      <point x="370.86904761904765" y="74.0" />
+      <point x="55.25" y="27.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.bookingms.domain.model.aggregates.Cargo" target="org.springframework.data.domain.AbstractAggregateRoot">
+      <point x="0.0" y="-93.0" />
+      <point x="165.66666666666669" y="74.0" />
+      <point x="260.36904761904765" y="74.0" />
+      <point x="-55.25" y="27.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.bookingms.domain.model.valueobjects.Leg" target="javax.persistence.Entity">
+      <point x="0.0" y="-93.0" />
+      <point x="939.6666666666667" y="94.0" />
+      <point x="731.9166666666667" y="94.0" />
+      <point x="35.625" y="26.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.handlingms.domain.model.aggregates.HandlingActivity" target="javax.persistence.Entity">
+      <point x="62.5" y="-82.0" />
+      <point x="515.1666666666667" y="94.0" />
+      <point x="684.4166666666667" y="94.0" />
+      <point x="-11.875" y="26.0" />
+    </edge>
+    <edge source="com.practicalddd.cargotracker.routingms.domain.model.entities.CarrierMovement" target="javax.persistence.Entity">
+      <point x="0.0" y="-71.0" />
+      <point x="11.875" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9215384615384615" x="708.9861407249466" y="424.88272921108734" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

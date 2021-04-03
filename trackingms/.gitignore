@@ -1,0 +1,74 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+将删除 .DS_Store
+将删除 .idea/.gitignore
+将删除 .idea/.name
+将删除 .idea/codeStyles/
+将删除 .idea/compiler.xml
+将删除 .idea/ddd-cargo.iml
+将删除 .idea/encodings.xml
+将删除 .idea/jarRepositories.xml
+将删除 .idea/libraries/
+将删除 .idea/misc.xml
+将删除 .idea/modules.xml
+将删除 .idea/vcs.xml
+将删除 Cargo.uml
+将删除 Readme.md
+将删除 bookingms/.DS_Store
+将删除 bookingms/.gitignore
+将删除 bookingms/.mvn/
+将删除 bookingms/mvnw
+将删除 bookingms/mvnw.cmd
+将删除 bookingms/pom.xml
+将删除 bookingms/src/
+将删除 handlingms/.DS_Store
+将删除 handlingms/.gitignore
+将删除 handlingms/.mvn/
+将删除 handlingms/mvnw
+将删除 handlingms/mvnw.cmd
+将删除 handlingms/pom.xml
+将删除 handlingms/src/
+将删除 routingms/.DS_Store
+将删除 routingms/.gitignore
+将删除 routingms/.mvn/
+将删除 routingms/mvnw
+将删除 routingms/mvnw.cmd
+将删除 routingms/pom.xml
+将删除 routingms/src/
+将删除 trackingms/.DS_Store
+将删除 trackingms/.gitignore
+将删除 trackingms/.mvn/
+将删除 trackingms/mvnw
+将删除 trackingms/mvnw.cmd
+将删除 trackingms/pom.xml
+将删除 trackingms/src/
+将删除 "\350\275\257\344\273\266\346\236\266\346\236\204.png"
